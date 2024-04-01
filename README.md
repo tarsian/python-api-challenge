@@ -54,6 +54,8 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 
   - Create a map that displays a point for every city in the city_data_df DataFrame. The size of the point should be the humidity in each city.
+    ![image](https://github.com/tarsian/python-api-challenge/assets/24801648/7507584e-9cd2-4b66-ab5a-a9a368a11154)
+
   - Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
     - A max temperature lower than 27 degrees but higher than 21
@@ -63,6 +65,8 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
   - Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
   - For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
   - Add the hotel name and the country as additional information in the hover message for each city on the map.
+    ![image](https://github.com/tarsian/python-api-challenge/assets/24801648/26f1d87e-4475-4c9e-a274-2d5c9595589f)
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
